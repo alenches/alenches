@@ -1,0 +1,94 @@
+#rect
+{
+    position: absolute;
+    background: rgb(13, 26, 66);
+    width: 28%;
+    left:   36%;
+    height: 98%;
+}
+#mess
+{
+    width: 100%;
+    height: 95%;
+    background-image: url("tardis.jpg");
+    background-size: cover;
+    overflow-y: scroll;
+}
+#image
+{
+   width: 100%;
+   height: 100%;
+}
+#controls
+{
+    background-color: rgb(251, 255, 0);
+    width: 100%;
+    height: 5%;
+}
+#texting 
+{
+    height: 100%;
+    width: 80%;
+    vertical-align: bottom;
+    box-sizing: border-box;
+}
+#button
+{
+    font: 16pt/12pt sans-serif;
+    text-align: center;
+    float: right;
+    height: 100%;
+    width: 20%;
+    background-color: rgb(1, 11, 20);
+    color: rgb(0, 86, 254);
+
+    border: 0;
+    padding: 0;
+
+    -webkit-user-select: none;
+}
+#button:hover 
+{ 
+    background-color: rgb(1, 22, 40);
+}
+.bubble
+{
+    margin: 10px;
+    background-image: url("bubka.png");
+    background-size: contain;
+}
+
+.textInMessage
+{
+    color: white;
+    font-size: 14pt;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: transparent;
+
+}
+
+.aboutMessage
+{
+    text-align: right;
+    font-size: 8pt;
+    color: seashell;
+    background-color: transparent
+    ;
+}
+#mess::-webkit-scrollbar 
+{
+  width: 10px;
+}
+#mess::-webkit-scrollbar-track 
+{
+  background: rgb(1, 22, 40); 
+}
+#mess::-webkit-scrollbar-thumb 
+{
+  background: rgb(1, 11, 20); 
+}
+#mess::-webkit-scrollbar-thumb:hover 
+{
+  background: rgb(1, 11, 20);
+}
