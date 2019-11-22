@@ -1,3 +1,9 @@
+import {View} from "./view"
+import {Controller} from "./controller"
+import {Model} from "./model"
+//document.body.appendChild(component());
+
+
 window.addEventListener 
 (
     "DOMContentLoaded", //dom - document upload, 
@@ -10,4 +16,6 @@ window.addEventListener
       conrt.Add_Observer(modelka);
       modelka.Add_Observer(view);
     }
+
+ 
 )

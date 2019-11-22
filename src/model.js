@@ -1,5 +1,6 @@
 //user rabotaet tyt i vidsit result
-class Model extends Observable
+import {Observable} from "./observer"
+export class Model extends Observable
 {
         constructor() {//() - tyt to chto prinimaet na vhod {} - a tyt to chto delaetsa
         super()

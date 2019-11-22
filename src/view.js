@@ -1,5 +1,6 @@
 //user rabotaet tyt i vidsit result
-class View extends Observable
+import {Observable} from "./observer"
+export class View extends Observable
 {
         constructor(){//() - tyt to chto prinimaet na vhod {} - a tyt to chto delaetsa
         super() //vyzvaly constructor roditelya
